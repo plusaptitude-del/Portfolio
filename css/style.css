@@ -635,4 +635,79 @@ text-align:center;
 
 }
 
+    img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+}
+    iframe{
+
+width:100%;
+
+border-radius:15px;
+
+}
+    .modal-content{
+
+max-width:700px;
+
+width:90%;
+
+}
+
+@media(max-width:768px){
+
+.modal-content{
+
+width:95%;
+
+}
+
+}
+    .qr-code{
+
+width:140px;
+
+margin:auto;
+
+display:block;
+
+}
+
+@media(max-width:768px){
+
+.qr-code{
+
+width:110px;
+
+}
+
+}
+    .teacher-img{
+
+width:250px;
+
+height:250px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+    .social-icons{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
 }
