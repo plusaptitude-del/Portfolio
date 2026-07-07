@@ -1,4 +1,3 @@
-/* GOOGLE FONT */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
@@ -19,9 +18,7 @@ body{
     overflow-x:hidden;
 }
 
-/* =========================
-   LOADER
-========================= */
+
 
 #loader{
     position:fixed;
@@ -61,9 +58,7 @@ body{
     }
 }
 
-/* =========================
-   HERO
-========================= */
+
 
 .hero{
     height:100vh;
@@ -138,9 +133,6 @@ body{
     font-size:1.1rem;
 }
 
-/* =========================
-   BUTTONS
-========================= */
 
 .buttons{
     margin-top:30px;
@@ -178,9 +170,6 @@ body{
     box-shadow:0 10px 25px rgba(212,175,55,.3);
 }
 
-/* =========================
-   SOCIAL
-========================= */
 
 .social{
     margin-top:30px;
@@ -204,9 +193,7 @@ body{
     transform:translateY(-5px);
 }
 
-/* =========================
-   SECTION
-========================= */
+
 
 .section{
 
@@ -224,9 +211,7 @@ body{
     margin-bottom:40px;
 }
 
-/* =========================
-   GLASS EFFECT
-========================= */
+
 
 .glass{
 
@@ -286,9 +271,7 @@ body{
     color:#d4af37;
 }
 
-/* =========================
-   TIMELINE
-========================= */
+
 
 .timeline{
 
@@ -304,9 +287,7 @@ body{
     margin-bottom:10px;
 }
 
-/* =========================
-   EDUCATION GRID
-========================= */
+
 
 .education-grid{
 
@@ -318,9 +299,7 @@ body{
     gap:25px;
 }
 
-/* =========================
-   PAPER GRID
-========================= */
+
 
 .paper-grid{
 
@@ -352,9 +331,7 @@ body{
     margin-bottom:10px;
 }
 
-/* =========================
-   QR SECTION
-========================= */
+
 
 .qr-container{
 
@@ -384,9 +361,7 @@ body{
     margin-top:10px;
 }
 
-/* =========================
-   MODAL
-========================= */
+
 
 .modal{
 
@@ -445,9 +420,7 @@ body{
     cursor:pointer;
 }
 
-/* =========================
-   FADE ANIMATION
-========================= */
+
 
 .fade-section{
 
@@ -465,9 +438,7 @@ body{
     transform:translateY(0);
 }
 
-/* =========================
-   SCROLLBAR
-========================= */
+
 
 ::-webkit-scrollbar{
 
@@ -486,9 +457,7 @@ body{
     border-radius:10px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+
 
 @media(max-width:768px){
 
@@ -542,4 +511,203 @@ video{
     object-fit:cover;
 
     margin:20px auto;
+}
+
+/* 
+   MOBILE RESPONSIVE
+ */
+
+@media (max-width:768px){
+
+body{
+
+overflow-x:hidden;
+
+}
+
+/* Hero */
+
+.hero{
+
+padding:100px 20px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+.hero h2{
+
+font-size:22px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+line-height:1.7;
+
+}
+
+/* Teacher Photo */
+
+.teacher-img{
+
+width:180px;
+
+height:180px;
+
+}
+
+/* Navigation */
+
+nav{
+
+padding:15px;
+
+flex-direction:column;
+
+}
+
+nav ul{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+/* Glass Cards */
+
+.paper-grid{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+/* Cards */
+
+.glass{
+
+padding:20px;
+
+}
+
+/* Videos */
+
+iframe{
+
+height:220px;
+
+}
+
+/* Section */
+
+.section{
+
+padding:70px 20px;
+
+}
+
+/* Counters */
+
+.counter-box{
+
+grid-template-columns:1fr;
+
+}
+
+/* Footer */
+
+footer{
+
+padding:25px;
+
+text-align:center;
+
+}
+
+    img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+}
+    iframe{
+
+width:100%;
+
+border-radius:15px;
+
+}
+    .modal-content{
+
+max-width:700px;
+
+width:90%;
+
+}
+
+@media(max-width:768px){
+
+.modal-content{
+
+width:95%;
+
+}
+
+}
+    .qr-code{
+
+width:140px;
+
+margin:auto;
+
+display:block;
+
+}
+
+@media(max-width:768px){
+
+.qr-code{
+
+width:110px;
+
+}
+
+}
+    .teacher-img{
+
+width:250px;
+
+height:250px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+}
+    .social-icons{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
 }
